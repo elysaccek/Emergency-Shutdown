@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "reboot.h": "c",
+        "module.h": "c",
+        "input.h": "c"
+    }
+}
