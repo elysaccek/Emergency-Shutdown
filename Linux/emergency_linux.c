@@ -28,7 +28,7 @@ static int my_keyboard_notifier(struct notifier_block *nb, unsigned long action,
         if (down && value == KEY_PAUSE && ctrl_pressed && shift_pressed)
         {
             printk(KERN_INFO "emergency_shutdown: Emergency detected! Rebooting system...\n");
-            //kernel_power_off();
+            kernel_power_off();
         }
     }
     return NOTIFY_OK;
